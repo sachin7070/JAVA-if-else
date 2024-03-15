@@ -20,8 +20,33 @@ if (x > 5) {
 }
 ```
 
-2. if-else Statement
-The if-else statement in Java allows you to execute one block of code if a condition is true and another block of code if the condition is false. It has the following syntax:
+### 2. else if Statement
+The else if statement allows you to specify a new condition if the previous condition is false. It allows for multiple conditions to be checked. It has the following syntax:
+
+```java
+if (condition1) {
+    // code to be executed if condition1 is true
+} else if (condition2) {
+    // code to be executed if condition2 is true
+} else {
+    // code to be executed if all conditions are false
+}
+```
+Example:
+
+```java
+int y = 20;
+if (y > 10) {
+    System.out.println("y is greater than 10");
+} else if (y < 10) {
+    System.out.println("y is less than 10");
+} else {
+    System.out.println("y is equal to 10");
+}
+```
+
+### 3. else Statement
+The else statement is used to execute a block of code if the condition of the if statement is false. It has the following syntax:
 
 ```java
 if (condition) {
@@ -33,15 +58,15 @@ if (condition) {
 Example:
 
 ```java
-int y = 20;
-if (y > 10) {
-    System.out.println("y is greater than 10");
+int z = 5;
+if (z > 10) {
+    System.out.println("z is greater than 10");
 } else {
-    System.out.println("y is not greater than 10");
+    System.out.println("z is not greater than 10");
 }
 ```
 
-3. Nested if-else Statement
+### 4. Nested if-else Statement
 Nested if-else statements allow you to include one if-else statement inside another. This allows for more complex conditional logic. It has the following syntax:
 
 ```java
